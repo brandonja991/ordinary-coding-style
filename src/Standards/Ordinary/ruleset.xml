@@ -22,7 +22,11 @@
     <rule ref="SlevomatCodingStandard.Attributes.DisallowMultipleAttributesPerLine" />
     <rule ref="SlevomatCodingStandard.Classes.BackedEnumTypeSpacing" />
     <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility" />
-    <rule ref="SlevomatCodingStandard.Classes.ClassLength" />
+    <rule ref="SlevomatCodingStandard.Classes.ClassLength">
+        <properties>
+            <property name="maxLinesLength" value="400" />
+        </properties>
+    </rule>
     <rule ref="SlevomatCodingStandard.Classes.ClassMemberSpacing" />
     <rule ref="SlevomatCodingStandard.Classes.ClassStructure">
         <properties>
