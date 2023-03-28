@@ -70,6 +70,7 @@
     <rule ref="SlevomatCodingStandard.Classes.TraitUseSpacing">
         <properties>
             <property name="linesCountBeforeFirstUse" value="0" />
+            <property name="linesCountAfterLastUseWhenLastInClass" value="0" />
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Classes.UselessLateStaticBinding" />
